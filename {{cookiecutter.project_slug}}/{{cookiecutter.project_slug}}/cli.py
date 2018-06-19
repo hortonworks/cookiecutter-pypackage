@@ -7,7 +7,7 @@ from typing import Optional
 
 
 @click.command()
-def main(args: Optional[str]=None) -> int:
+def main(args: Optional[str] = None) -> int:
     """Console script for {{cookiecutter.project_slug}}."""
     click.echo("Replace this message by putting your code into "
                "{{cookiecutter.project_slug}}.cli.main")
